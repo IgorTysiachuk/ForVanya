@@ -1,5 +1,4 @@
 const total = () => {
-  console.log(123);
   let chartsLeft; 
   let rightList = [
   
@@ -113,5 +112,5 @@ const total = () => {
 }
 
 total()
-setInterval(total, 10000)
+setInterval(total, 1000000)
 
