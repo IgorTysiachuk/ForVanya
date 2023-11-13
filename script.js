@@ -111,6 +111,7 @@ const total = () => {
   
   
 }
+
 total()
 setInterval(total, 10000)
 
