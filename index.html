@@ -11,17 +11,38 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="shower">
+        <p class="shower_p1">3 min</p>
+        <p class="shower_p2">100</p>
+    </header>
     <header class="header">
         <div class="header_options">
-            <div class="header_options_item">
+            <div id="item1" class="header_options_item">
                 <img class="header_options_item_svg" src="./img/clock.svg" alt="">
+                <div class="header_options_item_table none2" id="table1">
+                    <div class="header_options_item_table_p1 first">Reload each..
+                    </div>
+                    <div id="answer1" class="header_options_item_table_block">3 min
+                    </div>
+                    <div id="answer2" class="header_options_item_table_block">15 min</div>
+                    <div id="answer3" class="header_options_item_table_block">1 hour</div>
+                    <div id="answer4" class="header_options_item_table_block">4 hours</div>
+                    <div id="answer5" class="header_options_item_table_block last">24 hours</div>
+                </div>
             </div>
-            <div class="header_options_item">
+            <div id="item2" class="header_options_item">
                 <img class="header_options_item_svg" src="./img/options.svg" alt="">
+                <div class="header_options_item_table none2" id="table2" >
+                    <div class="header_options_item_table_p1 first">Count points...</div>
+                    <div id="answer6" class="header_options_item_table_block">100 times</div>
+                    <div id="answer7" class="header_options_item_table_block">200 times</div>
+                    <div id="answer8" class="header_options_item_table_block">300 times</div>
+                    <div id="answer9" class="header_options_item_table_block last">500 times</div>
+                </div>
             </div>
         </div>
         <input class="header_search" type="text" placeholder="Search">
-        <div class="header_reload">
+        <div id="reload" class="header_reload">
             <img class="header_reload_svg" src="./img/reload.svg" alt="">
         </div>
     </header>
@@ -52,6 +73,7 @@
             </div>
         </div> -->
     </div>
+    <div class="place none2"></div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </body>
