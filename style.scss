@@ -1,3 +1,75 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 52px;
+    border-radius: 9px;
+    position: fixed;
+    top: 20px;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #FFF;
+    padding: 0 8px;
+
+    box-shadow: 2px 2px 9.7px 0px rgba(0, 0, 0, 0.25);
+    &_options {
+        width: 95px;
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_item {
+            width: 43px;
+            height: 43px;
+            flex-shrink: 0;
+            border-radius: 9px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 0.2s;
+            &_svg {
+                width: 80%;
+                height: 80%;
+            }
+            &:hover {
+                background-color: #cacaca59;
+                transition-duration: 0.2s;
+            }
+        }
+    }
+    &_search {
+        padding-left: 10px;
+        width: 234px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 9px;
+        border: none;
+        outline: none;
+        background-color: #cacaca28;
+        font-size: 14px;
+        font-family: inter;
+    }
+    &_reload {
+        width: 43px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.2s;
+        &_svg {
+            width: 75%;
+            height: 75%;
+        }
+        &:hover {
+            background-color: #cacaca59;
+            transition-duration: 0.2s;
+        }
+    }
+
+}
 .none {
     display: none;
     font-size: 24px;
@@ -24,6 +96,8 @@ body {
     flex-direction: column;
     row-gap: 10px;
     align-items: center;
+    margin-top: 40px;
+
     &_block {
         width: 100%;
         height: 320px;
@@ -53,6 +127,8 @@ body {
 }
 .right {
     width: 49%;
+    margin-top: 40px;
+    
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -121,4 +197,7 @@ body {
         }
     }
 }
-
+.p1 {
+    margin-top: 160px;
+    
+}
